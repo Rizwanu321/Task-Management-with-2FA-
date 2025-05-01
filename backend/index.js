@@ -9,7 +9,7 @@ const taskRoutes = require("./routes/taskRoutes");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const allowedOrigins = [process.env.FRONTEND_URL || "http://localhost:3000"];
+const allowedOrigins = [process.env.FRONTEND_URL || "https://task-management-with-2fa.onrender.com"];
 
 app.use(
   cors({
